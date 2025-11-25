@@ -30,7 +30,7 @@ jobs:
         docker build -t leonardoosn/graphql-actions:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push -t leonardoosn/graphql-actions:0.0.2 .
+        docker push -t leonardoosn/graphql-actions:0.0.2
         
       
     
